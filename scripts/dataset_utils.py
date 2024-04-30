@@ -219,6 +219,7 @@ def get_data(dataset_str, masks=False, unique_patients=False,
         "Non-Pneumonia": 0   # non-pneumonia
     }
     
+    
     # Define which datasets to initialize
     dataset_map = {
         "custom": xrv.datasets.PneumoniaXRayDataset
